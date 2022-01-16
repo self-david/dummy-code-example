@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Fira Code";
+  src: url("./fonts/FiraCode-VariableFont_wght.ttf");
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +31,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.fira {
+  font-family: "Fira Code", monospace;
+}
+
+[class^="mtk"] {
+  font-feature-settings: "liga" 0 !important;
 }
 
 @keyframes App-logo-spin {
